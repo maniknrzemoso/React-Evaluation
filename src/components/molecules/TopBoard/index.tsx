@@ -22,8 +22,9 @@ export const TopBoard = () => {
           alignItems: "flex-start",
         }}
       >
-        {topBoardData.map((data) => (
+        {topBoardData.map((data, key) => (
           <MuiTypography
+            key={key}
             variant={data.variant}
             content={data.content}
             sx={data.sx}

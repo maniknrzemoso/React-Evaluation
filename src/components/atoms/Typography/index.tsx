@@ -1,7 +1,7 @@
 import { Typography } from "@mui/material";
 
 interface MuiTypographyProps {
-  variant?:
+  variant:
     | "h1"
     | "h2"
     | "h3"

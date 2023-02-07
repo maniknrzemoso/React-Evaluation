@@ -26,8 +26,8 @@ export const BottomBoard = () => {
   return (
     <CustomBottomBoard>
       <CustomBottomLeft>
-        {bottomBoardData.map((icon) => (
-          <MuiIcon icon={icon} />
+        {bottomBoardData.map((icon, key) => (
+          <MuiIcon key={key} icon={icon} />
         ))}
       </CustomBottomLeft>
       <MuiTypography
