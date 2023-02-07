@@ -24,7 +24,7 @@ export const TopBoard = () => {
       >
         {topBoardData.map((data, key) => (
           <MuiTypography
-            key={key}
+            key={key + 1}
             variant={data.variant}
             content={data.content}
             sx={data.sx}
